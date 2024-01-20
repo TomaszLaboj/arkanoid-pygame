@@ -8,8 +8,8 @@ pygame.display.set_caption('Arcade')
 
 WHITE = (255, 255, 255); BLACK = (0, 0, 0)
 BLUE = (0, 0, 255); RED = (255, 0, 0)
-SCREEN_WIDTH = 320
-SCREEN_HEIGHT = 200
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
 ZONE = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 FONT = pygame.font.SysFont('KacstOffice.ttf', 16)
 
@@ -18,7 +18,7 @@ ballX = 10
 ballY = 10
 ballModX = ballModY = 1
 
-rectWidth = 320
+rectWidth = 150
 rectHeight = 20
 rectX = 0
 rectY = SCREEN_HEIGHT - 2*rectHeight
